@@ -1,21 +1,47 @@
 # Odds Analysis
 
-_Used technologies_
-* Python
-* PostgresSQL
-* Tableau
+<div>
+  <strong>Python</strong>
+  <img align="left" width="36" src="https://github.com/tothadam500/Odds/assets/129130362/00b2b9f2-5d3d-4f94-8579-050300b1ac88.png" alt="Python Logo">
+</div>
+<br>
+<div>
+  <strong>PostgreSQL</strong>
+  <img align="left" width="36" src="https://github.com/tothadam500/Odds/assets/129130362/ff68ea55-63b7-42ce-8dac-24a52bd8d15f.png" alt="PostgreSQL Logo">
+</div>
+<br>
+<div>
+  <strong>Tableau</strong>
+  <img align="left" width="36" src="https://github.com/tothadam500/Odds/assets/129130362/5dc5370c-3915-48ad-b574-438e64b38ad0.png" alt="Tableau Logo">
+</div>
 
 ## About the project
-<img align="right" src="https://user-images.githubusercontent.com/129130362/236000881-242e9676-331a-4e50-9f4e-b78b9747a805.JPG">
-Upon starting the scraper a window appears where 
-<br>
-<br>
-<br>
-<br>![img.png](img.png)
-<br>
-<br>
-<br>
- <img align="left" src="https://user-images.githubusercontent.com/129130362/236001605-7b8f246f-d56d-4ace-8799-90be8cb8d4f8.JPG">
+
+<p>
+  <img align="right" width="320" src="https://github.com/tothadam500/Odds/assets/129130362/97b9e544-ee7f-4ff6-8c89-a6aa7328d8e7.png" alt="Start Snippet">
+  Upon starting the scraper, a Graphical User Interface (GUI) appears where we can select football seasons from <i>2018-2019</i> to <i>2022-2023</i> from <i>15</i> different leagues. If we have all possible seasons selected, it will sum up to <strong>75 total seasons</strong>. <br>
+</p> <br><br><br><br><br><br>
+<p>
+  The program scrapes data about football matches
+
+  | Home Team         | Result | Away Team | Home Odds | Draw Odds | Away Odds |
+  |-------------------|--------|-----------|------------|-----------|------------|
+  | Athletic Bilbao  | 2 - 1  | Leganes   | 1.83       | 3.90      | 6.00       |
+</p><br>
+
+
+We manipulate the data and create more fields
+| Home Team         | Home Team Goals | Result | Away Team | Home Odds | Draw Odds | Away Odds | Winner Odds |
+|-------------------|-----------------|--------|-----------|------------|-----------|------------|-------------|
+| Athletic Bilbao  | 2               | 2 - 1  | Leganes   | 1.83       | 3.90      | 6.00       | 1.83        |
+
+<br><br>
+
+After the program scraped a seasonon it inputs into a <strong>SQL Database</strong>.
+
+
+---
+
  When the user clicks on the **'Add League'** button,
   <br>&ensp; a new page will be displayed where the user can input the start and end dates for a specified football season and league.
   The user will also be able to select whether to save the data to a **CSV file** and/or a **PgSQL database**.
