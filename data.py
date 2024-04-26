@@ -79,9 +79,3 @@ country_dict = {
     },
 
 }
-
-# Path dictionary
-path_dict = {
-    "url_txt_path": 'urls.txt',
-    "csv_folder": "leagues",
-}
