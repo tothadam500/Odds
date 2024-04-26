@@ -57,8 +57,6 @@ class Scraper:
 
         max_range = len(self.driver.find_elements(By.TAG_NAME, 'tr'))
         for i in range(max_range):
-            if i > 10:
-                break
             try:
                 xpath = f'{base_xpath}[{i}]/td'
                 home_team = self.driver.find_element(by=By.XPATH, value=xpath + '[4]/a/span').text
