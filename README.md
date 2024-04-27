@@ -19,7 +19,11 @@ This project involves scraping data about football matches, manipulating it, sto
 
 # Overview
 
+https://github.com/tothadam500/Odds/assets/129130362/80e5f93e-8fb7-45fc-b03a-f8dd1cce8736
+
 The process includes the following steps:
+
+---
 
 <table>
   <tr valign="top">    
@@ -126,13 +130,8 @@ Use Tableau to generate three reports employing distinct strategies: exclusively
   </tr>
 </table>
 
-### Code Overview
-Launching the Application: Upon running the script, a GUI window titled "Odds Scraper" opens.
-Open Dashboard Button
-The "Open Dashboard" button function is associated with the action of launching the Tableau dashboard. When users click this button, it calls the open_tableau() function, which utilizes the os.startfile() method to open the Tableau dashboard file associated with the scraped data. This functionality provides users with quick access to visualize and analyze the collected football match odds data using Tableau.
+# Code Overview
 
-      def open_tableau():
-          os.startfile(TABLEAU_PATH)
 
 
 
