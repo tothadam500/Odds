@@ -64,7 +64,7 @@ The process includes the following steps:
     <td>2.10</td>
     <td>3.50</td>
     <td>4.50</td>
-    <td>2.10</td>
+    <td>3.50</td>
   </tr>
 </table>
  </div>
