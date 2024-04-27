@@ -1,7 +1,7 @@
 database = {
-    "database_name": "Odds3",
+    "database_name": "Odds",
     "username": "postgres",
-    "password": "password",
+    "password": "Vezetek123",
 }
 
 country_dict = {

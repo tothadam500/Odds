@@ -42,6 +42,7 @@ class Scraper:
         self.driver = Webdriver().get_driver()
         self.columns = ["Home Team", "Away Team", "Home Odds", "Draw Odds", "Away Odds", "Result", "URL"]
         for url in self.urls:
+            print(f"Currently scraping -> {url}")
             self.start_scraper(url)
         self.driver.quit()
 

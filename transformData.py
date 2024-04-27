@@ -11,7 +11,6 @@ class TransformData:
         self.country()
         self.league()
         self.id()
-        self.df.drop(columns=["URL"], inplace=True)
 
         self.home_goals()
         self.away_goals()
@@ -23,7 +22,8 @@ class TransformData:
         self.winner_odds()
         self.is_winner_odds_greatest_odds()
 
-        print(self.df.head(10), '\n')
+        print(self.df.head(10))
+
         Dataframe(self.df)
 
     def season(self):
@@ -37,7 +37,9 @@ class TransformData:
 
     def id(self):
         self.df["ID"] = self.df.apply(lambda
-                                      row: f"{row['URL'].split('/')[-1].split('-')[0]}_{row['Season']}_{row.name}",
+                                      row: f"{row['URL'].split('/')[-1].split('-')[0]}"
+                                           f"_{row['Season']}"
+                                           f"_{int(row.name)+1}",
                                       axis=1)
 
     def home_goals(self):

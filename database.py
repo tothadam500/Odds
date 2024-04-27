@@ -9,5 +9,6 @@ class Database:
     def import_to_database(self, df, name):
         try:
             df.to_sql(name=name, con=self.engine, if_exists="append", index=False)
+            print("The data successfully entered the database!\n")
         except ValueError:
             print("Already Exists")

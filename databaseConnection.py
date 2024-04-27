@@ -18,7 +18,6 @@ class DatabaseConnection:
             self.conn = pg2.connect(database=self.database_name, user=self.username, password=self.password)
             self.engine = create_engine(
                 f'postgresql://{self.username}:{self.password}@localhost:5432/{self.database_name}')
-            print("Connection established successfully!")
         except Exception as e:
             print(f"Error connecting to the database: {e}")
 

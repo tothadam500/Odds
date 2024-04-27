@@ -16,7 +16,7 @@ TABLEAU_PATH = 'OddsTableau.twbx'
 
 def create_input(text, row, values, base_value):
     label = Label(text=text, font=FONT, bg=BG)
-    label.grid(row=row, column=0, sticky=W, pady=10)
+    label.grid(row=row, column=0, sticky=W, pady=14)
 
     box = ttk.Combobox(values=values,
                        width=10,
@@ -31,7 +31,7 @@ def create_input(text, row, values, base_value):
 
 def create_button(text, command, row):
     button = Button(text=text, command=command, font=FONT, width=40)
-    button.grid(row=row, column=0, padx=30, pady=14, columnspan=2)
+    button.grid(row=row, column=0, padx=1, pady=14, columnspan=2)
 
 
 class GUI:
@@ -57,12 +57,17 @@ class GUI:
                               background=BG)
         welcome_label.grid(row=0, column=0, padx=30, pady=26, columnspan=2)
 
+        def open_tableau():
+            os.startfile(TABLEAU_PATH)
+
+        create_button(text="Open Dashboard", command=open_tableau, row=1)
+
         # Inputs
-        start_of_season_box = create_input(text="Start of Season:", row=1, values=start_of_season,
+        start_of_season_box = create_input(text="Start of Season:", row=2, values=start_of_season,
                                            base_value=min(start_of_season))
-        end_of_season_box = create_input(text="End of Season:", row=2, values=end_of_season,
+        end_of_season_box = create_input(text="End of Season:", row=3, values=end_of_season,
                                          base_value=max(end_of_season))
-        country_box = create_input(text="Country:", row=3, values=capitalized_countries,
+        country_box = create_input(text="Country:", row=4, values=capitalized_countries,
                                    base_value=min(capitalized_countries))
 
         # All Countries
@@ -79,7 +84,7 @@ class GUI:
                                             font=FONT,
                                             bg=BG,
                                             command=all_countries_command)
-        all_countries.grid(row=4, column=1, sticky=E)
+        all_countries.grid(row=5, column=1, sticky=E)
 
         # Submit
         def submit_command():
@@ -95,12 +100,7 @@ class GUI:
                                   end_of_season=submitted_end_of_season,
                                   country=submitted_country).get_urls_list()
 
-        create_button(text="Submit", command=submit_command, row=5)
-
-        def open_tableau():
-            os.startfile(TABLEAU_PATH)
-
-        create_button(text="Open Dashboard", command=open_tableau, row=6)
+        create_button(text="Submit", command=submit_command, row=6)
 
         def start_button_command():
             if not self.urls_list:
