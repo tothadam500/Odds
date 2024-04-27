@@ -130,10 +130,3 @@ Use Tableau to generate three reports employing distinct strategies: exclusively
   </tr>
 </table>
 
-# Code Overview
-
-
-
-
-
-This README provides an overview of the project, including its workflow and key components.
