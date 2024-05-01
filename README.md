@@ -124,7 +124,7 @@ The process includes the following steps:
   <tr valign="top">
     <td><h2>5. Data Visualization</h2> 
 Use Tableau to generate three reports employing distinct strategies: exclusively betting on draws, on the greatest odd, or on a number.</td>
-    <td width=600 ><img src="https://github.com/tothadam500/Odds/assets/129130362/6a944316-e600-4bac-9620-76bcdc35f621.png"></td>
+    <td width=500 ><img src="https://github.com/tothadam500/Odds/assets/129130362/6a944316-e600-4bac-9620-76bcdc35f621.png"></td>
   </tr>
 </table>
 
