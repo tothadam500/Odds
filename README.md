@@ -23,8 +23,6 @@ https://github.com/tothadam500/Odds/assets/129130362/80e5f93e-8fb7-45fc-b03a-f8d
 
 The process includes the following steps:
 
----
-
 <table>
   <tr valign="top">    
  <td><h2>1. Data Scraping</h2><br>Upon starting the scraper, a Graphical User Interface (GUI) appears where users can select football seasons from <strong>2018-2019</strong> to <strong>2022-2023</strong> across <strong>15</strong> different leagues. This totals to <strong>75 total seasons</strong> and <strong>more than 24,000 matches</strong> played.</td>
