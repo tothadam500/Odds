@@ -7,7 +7,7 @@ This project involves scraping data about football matches, manipulating it, sto
   </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
   <span style="display: inline-block; margin-right: 20px; vertical-align: middle;">
-    <img width="40" src="https://github.com/user-attachments/assets/23fa0500-38f0-413b-944c-d45141798974" alt="PostgreSQL_Logo">
+    <img width="40" src="https://github.com/user-attachments/assets/47005b5c-6382-48c6-8a01-ef41b5a00511" alt="PostgreSQL_Logo">
     <strong>PostgreSQL</strong>
   </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
@@ -18,9 +18,6 @@ This project involves scraping data about football matches, manipulating it, sto
 </p>
 
 # Overview
-
-https://github.com/tothadam500/Odds/assets/129130362/80e5f93e-8fb7-45fc-b03a-f8dd1cce8736
-
 The process includes the following steps:
 
 <table>
