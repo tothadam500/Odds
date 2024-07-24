@@ -27,7 +27,7 @@ The process includes the following steps:
   <tr valign="top">    
  <td><h2>1. Data Scraping</h2><br>Upon starting the scraper, a Graphical User Interface (GUI) appears where users can select football seasons from <strong>2018-2019</strong> to <strong>2022-2023</strong> across <strong>15</strong> different leagues. This totals to <strong>75 total seasons</strong> and <strong>more than 24,000 matches</strong> played.</td>
  <td width="480">
-<img width="480" src="https://github.com/tothadam500/Odds/assets/129130362/b3924ac0-03f4-434d-b10b-fee1589f8629.png">
+<img width="480" src="https://github.com/tothadam500/Odds/assets/129130362/b3924ac0-03f4-434d-b10b-fee1589f8629.png" alt="GUI">
 </td>
   </tr>
 </table> 
@@ -114,7 +114,7 @@ The process includes the following steps:
 <table>
   <tr>
     <td ><img src="https://github.com/tothadam500/Odds/assets/129130362/db9b8b5d-9ebc-4bd2-a98f-7a8e44992a81"></td>
-    <td width="70%"><img src="https://github.com/tothadam500/Odds/assets/129130362/9abf34fc-f503-4344-9786-2046c9887abe"></td>
+    <td width="70%"><img src="https://github.com/tothadam500/Odds/assets/129130362/9abf34fc-f503-4344-9786-2046c9887abe" alt="database"></td>
   </tr>
 </table>
 
@@ -124,7 +124,7 @@ The process includes the following steps:
   <tr valign="top">
     <td><h2>5. Data Visualization</h2> 
 Use Tableau to generate three reports employing distinct strategies: exclusively betting on draws, on the greatest odd, or on a number.</td>
-    <td width=500 ><img src="https://github.com/user-attachments/assets/270f8e31-2c7b-4f47-90bd-f66ffbb27fba"></td>
+    <td width=500 ><img src="https://github.com/user-attachments/assets/270f8e31-2c7b-4f47-90bd-f66ffbb27fba" src="tableu_img"></td>
   </tr>
 </table>
 
