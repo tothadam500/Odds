@@ -7,7 +7,7 @@ This project involves scraping data about football matches, manipulating it, sto
   </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
   <span style="display: inline-block; margin-right: 20px; vertical-align: middle;">
-    <img width="40" src="https://github.com/tothadam500/Odds/assets/129130362/ff68ea55-63b7-42ce-8dac-24a52bd8d15f.png" alt="PostgreSQL Logo">
+    <img width="40" src="https://github.com/user-attachments/assets/23fa0500-38f0-413b-944c-d45141798974" alt="PostgreSQL Logo">
     <strong>PostgreSQL</strong>
   </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
@@ -124,7 +124,7 @@ The process includes the following steps:
   <tr valign="top">
     <td><h2>5. Data Visualization</h2> 
 Use Tableau to generate three reports employing distinct strategies: exclusively betting on draws, on the greatest odd, or on a number.</td>
-    <td width=500 ><img src="https://github.com/tothadam500/Odds/assets/129130362/6a944316-e600-4bac-9620-76bcdc35f621.png"></td>
+    <td width=500 ><img src="https://github.com/user-attachments/assets/270f8e31-2c7b-4f47-90bd-f66ffbb27fba"></td>
   </tr>
 </table>
 
