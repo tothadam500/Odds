@@ -2,17 +2,17 @@
 This project involves scraping data about football matches, manipulating it, storing it in a database, and creating analysis about it.
 <p>
   <span style="display: inline-block; margin-right: 20px; vertical-align: middle;">
-    <img width="40" src="https://github.com/tothadam500/Odds/assets/129130362/00b2b9f2-5d3d-4f94-8579-050300b1ac88.png" alt="Python Logo">
+    <img width="40" src="https://github.com/tothadam500/Odds/assets/129130362/00b2b9f2-5d3d-4f94-8579-050300b1ac88.png" alt="Python_Logo">
     <strong>Python</strong>
   </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
   <span style="display: inline-block; margin-right: 20px; vertical-align: middle;">
-    <img width="40" src="https://github.com/user-attachments/assets/23fa0500-38f0-413b-944c-d45141798974" alt="PostgreSQL Logo">
+    <img width="40" src="https://github.com/user-attachments/assets/23fa0500-38f0-413b-944c-d45141798974" alt="PostgreSQL_Logo">
     <strong>PostgreSQL</strong>
   </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
   <span style="display: inline-block; vertical-align: middle;">
-    <img width="40" src="https://github.com/tothadam500/Odds/assets/129130362/5dc5370c-3915-48ad-b574-438e64b38ad0.png" alt="Tableau Logo">
+    <img width="40" src="https://github.com/tothadam500/Odds/assets/129130362/5dc5370c-3915-48ad-b574-438e64b38ad0.png" alt="Tableau_Logo">
     <strong>Tableau</strong>
   </span>
 </p>
