@@ -1,7 +1,7 @@
 database = {
     "database_name": "Odds",
     "username": "postgres",
-    "password": "Vezetek123",
+    "password": "*****",
 }
 
 country_dict = {
@@ -79,3 +79,4 @@ country_dict = {
     },
 
 }
+
