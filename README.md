@@ -46,10 +46,10 @@ Data scraped from match results and enriched with calculated fields (e.g., `Winn
 
 Example records:  
 
-| Home Team        | Home Goals | Result | Away Team | Home Odds | Draw Odds | Away Odds | Winner Odds |
-|------------------|------------|--------|-----------|-----------|-----------|-----------|-------------|
-| Athletic Bilbao  | 2          | 2 - 1  | Leganes   | 1.83      | 3.90      | 6.00      | 1.83        |
-| Valencia         | 1          | 1 - 1  | Sevilla   | 2.10      | 3.50      | 4.50      | 3.50        |
+| Home Team        | Result | Away Team | Home Odds | Draw Odds | Away Odds | Winner Odds |
+|------------------|--------|-----------|-----------|-----------|-----------|-------------|
+| Athletic Bilbao  | 2 - 1  | Leganes   | 1.83      | 3.90      | 6.00      | 1.83        |
+| Valencia         | 1 - 1  | Sevilla   | 2.10      | 3.50      | 4.50      | 3.50        |
 
 ---
 
